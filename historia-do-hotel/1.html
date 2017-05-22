@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <audio id="drawer">
+      <source src="sons/drawer.wav" type="audio/wav">
+    </audio>
+
+    <div id="mainBox">
+      <div id="historia">
+        <img src="http://www.thewindowtintingcompany.co.uk/pictures/safe_glass.jpg" style="width:400px;">
+        <p align="justify">Quem escolheu a ação número <b>1</b>:
+        <br><br>
+        Você, curioso, resolveu buscar alguma pista para entender o que estava acontecendo. No lobby escuro,
+        iluminado apenas pelas luzes de fora que atravessavam as janelas, você encontrou apenas a continuação daquela bagunça que
+        você e seus amigos já haviam presenciado quando entraram no hotel. Nada te aconteceu, e você permanece vivo.
+        Porém, no meio de pedaços de madeira e cacos de vidro, você encontra um revólver.<br>
+        Você vai pegar o revólver?<br>
+        <a href="#">Sim</a> / <a href="#">Não</a>
+      </div>
+    </div>
+
+    <script>
+      var drawer = document.querySelector('#drawer');
+      drawer.play();
+    </script>
+
+  </body>
+</html>

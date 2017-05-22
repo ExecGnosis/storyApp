@@ -1,0 +1,24 @@
+#historia {
+  width: 400px;
+}
+
+#mainBox {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  color: green;
+}
